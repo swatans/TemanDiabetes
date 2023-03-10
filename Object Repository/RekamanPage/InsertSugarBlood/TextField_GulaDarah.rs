@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TextField_GulaDarah</name>
+   <tag></tag>
+   <elementGuidId>71e90b6d-b6c3-4439-92cd-2a7b0940786b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.widget.EditText' and @content-desc = 'inputGulaDarah']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>android.widget.EditText</value>
+      <webElementGuid>b1be76b7-cf35-455c-9cf6-b99168e9ccb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>content-desc</name>
+      <type>Main</type>
+      <value>inputGulaDarah</value>
+      <webElementGuid>58e3c004-166d-4c3d-ad1e-b29f51d771e4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
