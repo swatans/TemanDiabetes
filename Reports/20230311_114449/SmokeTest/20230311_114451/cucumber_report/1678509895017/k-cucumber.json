@@ -1,0 +1,599 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "2233c2d1-8b04-46bd-b695-1485abddd2fd",
+        "line": 6,
+        "name": "As user i want to go to Rekaman Page and verify all the section",
+        "description": "",
+        "id": "insert-record-blood;as-user-i-want-to-go-to-rekaman-page-and-verify-all-the-section",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21133714500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "be7beae9-f5fd-4bad-9d19-b98455213f32"
+          },
+          {
+            "result": {
+              "duration": 983595300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User go to Rekaman Page",
+            "match": {
+              "location": "Script.I_go_to_rekamanpage()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "f37ab969-61a9-474a-845d-5bce8d766250"
+          },
+          {
+            "result": {
+              "duration": 4415697800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User check the data record is there or not",
+            "match": {
+              "location": "Script.I_check_data()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "2dc6bbad-1f00-4eba-944d-0f32d8fbe6a8"
+          },
+          {
+            "result": {
+              "duration": 532709000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Verify all the section",
+            "match": {
+              "location": "Script.I_verify_rekaman_section()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "17a28dcc-0062-4950-8810-b81aaa81f104"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "043daf27-a3ec-404e-8de7-ac6c4d80e147",
+        "line": 13,
+        "name": "As user i want to insert manually the blood record",
+        "description": "",
+        "id": "insert-record-blood;as-user-i-want-to-insert-manually-the-blood-record",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 171531600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User in the Rekaman Page",
+            "match": {
+              "location": "Script.in_rekaman_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "d045966c-1a01-4c8d-96a1-c58bee127e4c"
+          },
+          {
+            "result": {
+              "duration": 1390067500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User go to insert blood and chose manual mechanism",
+            "match": {
+              "location": "Script.I_go_to_insert()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "1088a0c7-83ea-40c8-985e-fa818e5d1055"
+          },
+          {
+            "result": {
+              "duration": 175334700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User chose manual",
+            "match": {
+              "location": "Script.I_chose_manual()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "5c2ff0f0-4e1c-480d-b378-8e722bf46e3d"
+          },
+          {
+            "result": {
+              "duration": 1273585900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User redirect input page",
+            "match": {
+              "location": "Script.I_redirect_to()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "c31430a7-6f5d-49ef-a1f0-2f0faba84c04"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "369da4c4-d202-4184-8074-d05fc1727daa",
+        "line": 20,
+        "name": "As user i want to verify all the section insert sugar blood",
+        "description": "",
+        "id": "insert-record-blood;as-user-i-want-to-verify-all-the-section-insert-sugar-blood",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 102282200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User in input darah page",
+            "match": {
+              "location": "Script.in_input_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "4209cad6-621c-4ab1-b351-46613a4210e7"
+          },
+          {
+            "result": {
+              "duration": 2369464300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User want to see the whole section",
+            "match": {
+              "location": "Script.I_see_whole()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "42121bc6-3b52-4694-a458-dea37a51ae36"
+          },
+          {
+            "result": {
+              "duration": 1143681200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User can easly fill the field",
+            "match": {
+              "location": "Script.I_easly()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "619829ec-825f-4094-a739-b7a93ec6b5f7"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "5ab6d807-a775-4035-96ae-d7c62d37829b",
+        "line": 26,
+        "name": "As user i want to save the page without fill any field",
+        "description": "",
+        "id": "insert-record-blood;as-user-i-want-to-save-the-page-without-fill-any-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 356591200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User in input darah page",
+            "match": {
+              "location": "Script.in_input_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "b1d4f0bf-0af9-4b4b-a073-9def1a0fa356"
+          },
+          {
+            "result": {
+              "duration": 238472300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User didn\u0027t fill any field and save it",
+            "match": {
+              "location": "Script.I_dont_fill()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "c43d1728-be82-4217-b551-6c9d5a8a137d"
+          },
+          {
+            "result": {
+              "duration": 680171000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "System will throw alert handling",
+            "match": {
+              "location": "Script.I_handling_1()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "ffe93d85-0fd9-4904-be84-84f8f96c3899"
+          },
+          {
+            "result": {
+              "duration": 123890700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I press OK",
+            "match": {
+              "location": "Script.I_press_OK()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "912a4a84-24be-49ef-be6a-d08490f648c9"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NegativeCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "02a5f4ae-a496-4d16-820b-9a1be50a555f",
+        "line": 33,
+        "name": "As user just fill jenis pemeriksaan darah then save it",
+        "description": "",
+        "id": "insert-record-blood;as-user-just-fill-jenis-pemeriksaan-darah-then-save-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 577469900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User in input darah page",
+            "match": {
+              "location": "Script.in_input_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "f78dd76d-a31b-4b5e-a1ab-6e2a7c1dfd14"
+          },
+          {
+            "result": {
+              "duration": 2299376700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User just fill pemeriksaan darah",
+            "match": {
+              "location": "Script.I_just_pemeriksaan()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "d735987a-6a15-4773-b4c4-ce7f9f0994f1"
+          },
+          {
+            "result": {
+              "duration": 10790986500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "System will throw alert handling",
+            "match": {
+              "location": "Script.I_handling_1()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "3b7310c5-e4dd-4fd9-a092-eec00ca58cc6"
+          },
+          {
+            "result": {
+              "duration": 120903500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I press OK",
+            "match": {
+              "location": "Script.I_press_OK()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "fcc7080d-24c7-47c7-8b87-a9680dbdc84f"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NegativeCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "7ff52dda-8ab7-4010-86da-047ca6e243cd",
+        "line": 40,
+        "name": "As user just fill jenis pemeriksaan darah and time then save it",
+        "description": "",
+        "id": "insert-record-blood;as-user-just-fill-jenis-pemeriksaan-darah-and-time-then-save-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 570720500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User in input darah page",
+            "match": {
+              "location": "Script.in_input_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "7012e983-4a92-46fb-8bdc-21854bba29aa"
+          },
+          {
+            "result": {
+              "duration": 1980915400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User fill time",
+            "match": {
+              "location": "Script.I_just_time()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "b38361be-6219-4b7a-91b2-300d89d44893"
+          },
+          {
+            "result": {
+              "duration": 10712992200,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "System will throw alert handling",
+            "match": {
+              "location": "Script.I_handling_1()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "4c4580c4-aefb-4b21-8c5a-688ffbcebd23"
+          },
+          {
+            "result": {
+              "duration": 126514200,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I press OK",
+            "match": {
+              "location": "Script.I_press_OK()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "84fad0ce-1d0a-48e8-a611-d4f6e417516a"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NegativeCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "28c3f284-1687-4674-b3c0-765f6a417add",
+        "line": 47,
+        "name": "As user just fill jenis pemeriksaan darah, time and sugar blood then save it",
+        "description": "",
+        "id": "insert-record-blood;as-user-just-fill-jenis-pemeriksaan-darah--time-and-sugar-blood-then-save-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 556777800,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User in input darah page",
+            "match": {
+              "location": "Script.in_input_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "509693a2-8d0f-4423-a719-e4b2f676545b"
+          },
+          {
+            "result": {
+              "duration": 5296281400,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User fill sugar blood",
+            "match": {
+              "location": "Script.I_just_sugarblood()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "6caa562f-80ab-4d06-b613-5024484315c0"
+          },
+          {
+            "result": {
+              "duration": 10771050600,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "System will throw alert handling",
+            "match": {
+              "location": "Script.I_handling_1()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "7cf03dc7-9458-44d7-864d-15e2d8578a21"
+          },
+          {
+            "result": {
+              "duration": 128633200,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I press OK",
+            "match": {
+              "location": "Script.I_press_OK()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "cc2adcea-f66a-4843-9c2a-20503b22fd39"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NegativeCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "9998f5cb-e970-438c-bdc0-5d61ff5df991",
+        "line": 54,
+        "name": "As user just fill jenis pemeriksaan darah, time, sugar blood and makan malam then save it",
+        "description": "",
+        "id": "insert-record-blood;as-user-just-fill-jenis-pemeriksaan-darah--time--sugar-blood-and-makan-malam-then-save-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 575357300,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User in input darah page",
+            "match": {
+              "location": "Script.in_input_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "7f83b64a-77b1-492b-9340-e92c9b912bd7"
+          },
+          {
+            "result": {
+              "duration": 3867036300,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User fill makan malam",
+            "match": {
+              "location": "Script.I_just_makanmalam()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "ecadac61-b907-4d8b-b6e2-6514a6bd88ba"
+          },
+          {
+            "result": {
+              "duration": 10620378100,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "System will throw alert handling",
+            "match": {
+              "location": "Script.I_handling_1()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "01f214a9-f326-4897-890f-898c982db1c3"
+          },
+          {
+            "result": {
+              "duration": 107769400,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I press OK",
+            "match": {
+              "location": "Script.I_press_OK()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "df68e946-144f-43c3-9f88-ac8de358d160"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NegativeCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "809e01e3-4381-44c3-8ed0-22b01d1aad37",
+        "line": 61,
+        "name": "As user i fill everything on the all section and save it",
+        "description": "",
+        "id": "insert-record-blood;as-user-i-fill-everything-on-the-all-section-and-save-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 573284400,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "User in input darah page",
+            "match": {
+              "location": "Script.in_input_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "a997f2a1-8573-4a68-a79a-42de8e412ae0"
+          },
+          {
+            "result": {
+              "duration": 8053864500,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "User fill snack malam",
+            "match": {
+              "location": "Script.I_just_snackmalam()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "b6f66ca9-a493-447a-933b-73be0aea6380"
+          },
+          {
+            "result": {
+              "duration": 1039373200,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "User verify the data is valid or not",
+            "match": {
+              "location": "Script.I_verify()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "efb7debb-8fcc-431f-8d53-cb979cb181ed"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      }
+    ],
+    "name": "Insert Record Blood",
+    "description": "  As user i want to Record my Daily Sugar Blood Data",
+    "id": "insert-record-blood",
+    "keyword": "Feature",
+    "uri": "C:/Users/MSI/git/TemanDiabetes/Include/features/InsertRecordBlood.feature",
+    "tags": []
+  }
+]

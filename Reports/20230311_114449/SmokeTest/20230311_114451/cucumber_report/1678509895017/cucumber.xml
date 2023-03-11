@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="104.003163">
+<testcase classname="Insert Record Blood" name="As user i want to go to Rekaman Page and verify all the section" time="27.183462">
+<system-out><![CDATA[Given I open default app....................................................passed
+When User go to Rekaman Page................................................passed
+And User check the data record is there or not..............................passed
+Then User Verify all the section............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insert Record Blood" name="As user i want to insert manually the blood record" time="3.015015">
+<system-out><![CDATA[Given User in the Rekaman Page..............................................passed
+When User go to insert blood and chose manual mechanism.....................passed
+And User chose manual.......................................................passed
+Then User redirect input page...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insert Record Blood" name="As user i want to verify all the section insert sugar blood" time="3.618281">
+<system-out><![CDATA[Given User in input darah page..............................................passed
+When User want to see the whole section.....................................passed
+Then User can easly fill the field..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insert Record Blood" name="As user i want to save the page without fill any field" time="1.402284">
+<system-out><![CDATA[Given User in input darah page..............................................passed
+When User didn't fill any field and save it.................................passed
+Then System will throw alert handling.......................................passed
+Then I press OK.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insert Record Blood" name="As user just fill jenis pemeriksaan darah then save it" time="13.792014">
+<system-out><![CDATA[Given User in input darah page..............................................passed
+When User just fill pemeriksaan darah.......................................passed
+Then System will throw alert handling.......................................passed
+Then I press OK.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insert Record Blood" name="As user just fill jenis pemeriksaan darah and time then save it" time="13.394195">
+<system-out><![CDATA[Given User in input darah page..............................................passed
+When User fill time.........................................................passed
+Then System will throw alert handling.......................................passed
+Then I press OK.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insert Record Blood" name="As user just fill jenis pemeriksaan darah, time and sugar blood then save it" time="16.755492">
+<system-out><![CDATA[Given User in input darah page..............................................passed
+When User fill sugar blood..................................................passed
+Then System will throw alert handling.......................................passed
+Then I press OK.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insert Record Blood" name="As user just fill jenis pemeriksaan darah, time, sugar blood and makan malam then save it" time="15.173751">
+<system-out><![CDATA[Given User in input darah page..............................................passed
+When User fill makan malam..................................................passed
+Then System will throw alert handling.......................................passed
+Then I press OK.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insert Record Blood" name="As user i fill everything on the all section and save it" time="9.668669">
+<system-out><![CDATA[Given User in input darah page..............................................passed
+When User fill snack malam..................................................passed
+Then User verify the data is valid or not...................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Plus</name>
+   <tag></tag>
+   <elementGuidId>8fc35690-7f9d-4218-90b5-da9878bbb1c2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.view.ViewGroup' and @content-desc = 'btnAddPengingatObat']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>android.view.ViewGroup</value>
+      <webElementGuid>a387cfc0-0b3b-4de6-961b-5ab4195c5116</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>content-desc</name>
+      <type>Main</type>
+      <value>btnAddPengingatObat</value>
+      <webElementGuid>e7fa08c3-1233-4608-a124-13ffc04fbfbb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

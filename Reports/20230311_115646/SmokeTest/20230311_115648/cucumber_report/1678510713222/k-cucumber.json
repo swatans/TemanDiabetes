@@ -1,0 +1,590 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "845ae5e0-6159-4b6d-9abe-6597e1f5595f",
+        "line": 6,
+        "name": "As user i want to see entry point medication reminder",
+        "description": "",
+        "id": "insert-record-blood;as-user-i-want-to-see-entry-point-medication-reminder",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14956928800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "ad287aea-71a0-47cc-84c6-d67b1fd1b0ec"
+          },
+          {
+            "result": {
+              "duration": 7623412400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User looking for tab medication reminder",
+            "match": {
+              "location": "Script.I_swipe_to_bottom_trx()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "be5854f4-5cb3-487d-8bc6-a62d6bdf321a"
+          },
+          {
+            "result": {
+              "duration": 478481400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User verify medication page",
+            "match": {
+              "location": "Script.I_verify_medication()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "20cfde91-3a29-4974-8914-0f63b19ca4a5"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "05036af9-cafd-4539-9f6d-7eab7a3e5329",
+        "line": 12,
+        "name": "As user i want go to pengingat obat page and verify the page",
+        "description": "",
+        "id": "insert-record-blood;as-user-i-want-go-to-pengingat-obat-page-and-verify-the-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1004633200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on pengingat obat page",
+            "match": {
+              "location": "Script.I_pengingat_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "5316c24b-8033-4586-aa73-bbcce60e5e70"
+          },
+          {
+            "result": {
+              "duration": 271971200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User verify the pengingat obat page",
+            "match": {
+              "location": "Script.I_pengingat_page_verify()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "a0a0a8ba-8488-415a-9c42-aeb1891b3354"
+          },
+          {
+            "result": {
+              "duration": 117380200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User can insert reminder medicine",
+            "match": {
+              "location": "Script.I_insert_medicine()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "75e28b59-7bd0-4908-b9e2-71479854a469"
+          },
+          {
+            "result": {
+              "duration": 1077137100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I press Cross",
+            "match": {
+              "location": "Script.I_press_cross_reminder()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "9b5282c9-dd38-4435-a7dd-1d29374eb644"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "9a7b0e7c-c7bf-4f3a-9bc7-51b1793f2199",
+        "line": 19,
+        "name": "As user i want to insert the page but haven\u0027t filled any field and save it",
+        "description": "",
+        "id": "insert-record-blood;as-user-i-want-to-insert-the-page-but-haven-t-filled-any-field-and-save-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 554253700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is on pengingat obat page",
+            "match": {
+              "location": "Script.I_pengingat_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "185b5db8-5e1d-420b-b362-59d26d493e5b"
+          },
+          {
+            "result": {
+              "duration": 261441000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User verify the pengingat obat page",
+            "match": {
+              "location": "Script.I_pengingat_page_verify()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "04db00b7-1e55-46a8-8f3b-b9dedb721438"
+          },
+          {
+            "result": {
+              "duration": 137336600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User can insert reminder medicine",
+            "match": {
+              "location": "Script.I_insert_medicine()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "582a8de8-4f7a-4b03-8015-4fa6975f2688"
+          },
+          {
+            "result": {
+              "duration": 741608400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User haven\u0027t filled any field and save it",
+            "match": {
+              "location": "Script.I_reminder_havent()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "8e77b5fc-da9c-46e4-8ea4-7126a83ebf44"
+          },
+          {
+            "result": {
+              "duration": 1038451700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "System will throw alert handling reminder medicine",
+            "match": {
+              "location": "Script.I_handling_medicine()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "e54e9405-e3d4-4f02-bbc6-f73e79636feb"
+          },
+          {
+            "result": {
+              "duration": 130383100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I press OK",
+            "match": {
+              "location": "Script.I_press_OK()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "865a2cbe-259f-4f10-9711-7da8717b1570"
+          },
+          {
+            "result": {
+              "duration": 616027500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I press Cross",
+            "match": {
+              "location": "Script.I_press_cross_reminder()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "f978b436-d655-40aa-b2e2-b55664c5784a"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NegativeCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "4a0753a2-0e26-4fa1-b6e4-0ed01afdfe8f",
+        "line": 29,
+        "name": "As user i want to insert reminder medicie for before eaten",
+        "description": "",
+        "id": "insert-record-blood;as-user-i-want-to-insert-reminder-medicie-for-before-eaten",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 558544000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User is on pengingat obat page",
+            "match": {
+              "location": "Script.I_pengingat_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "fa0c5f88-013e-455f-846e-337b0c7e41d8"
+          },
+          {
+            "result": {
+              "duration": 262947800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User verify the pengingat obat page",
+            "match": {
+              "location": "Script.I_pengingat_page_verify()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "f703eeb7-d44c-49d0-b952-9e5dfb289054"
+          },
+          {
+            "result": {
+              "duration": 132552900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User can insert reminder medicine",
+            "match": {
+              "location": "Script.I_insert_medicine()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "fb014070-b7df-48bc-91d6-f2a90693fd9e"
+          },
+          {
+            "result": {
+              "duration": 633106500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User pick before eat",
+            "match": {
+              "location": "Script.I_before_eat()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "ceb2c636-c080-49af-9f48-842c9e59c035"
+          },
+          {
+            "result": {
+              "duration": 308345400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I press OK Reminder",
+            "match": {
+              "location": "Script.I_press_OK_reminder()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "1926f892-2f0c-4adb-9b3d-824557c8ea71"
+          },
+          {
+            "result": {
+              "duration": 786186900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "System will throw alert handling reminder medicine",
+            "match": {
+              "location": "Script.I_handling_medicine()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "675a2fc2-f62d-435a-8851-21f24b20cbe4"
+          },
+          {
+            "result": {
+              "duration": 123682400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I press OK",
+            "match": {
+              "location": "Script.I_press_OK()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "53a0424f-6fd4-4cad-b1be-c63b8d0040d0"
+          },
+          {
+            "result": {
+              "duration": 619487300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I press Cross",
+            "match": {
+              "location": "Script.I_press_cross_reminder()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "9410f220-4992-4ed9-aa8a-252aa2f28502"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NegativeCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "43ebbddc-5620-4c4b-adda-c94d1f85dd28",
+        "line": 40,
+        "name": "As user i want to insert reminder medicie for before eaten",
+        "description": "",
+        "id": "insert-record-blood;as-user-i-want-to-insert-reminder-medicie-for-before-eaten",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 556671400,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User is on pengingat obat page",
+            "match": {
+              "location": "Script.I_pengingat_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "70496363-2dd7-40b3-86dd-caa4ce4838d5"
+          },
+          {
+            "result": {
+              "duration": 252638100,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User verify the pengingat obat page",
+            "match": {
+              "location": "Script.I_pengingat_page_verify()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "d55c5776-faf1-413e-a040-4ff92105abac"
+          },
+          {
+            "result": {
+              "duration": 118862900,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User can insert reminder medicine",
+            "match": {
+              "location": "Script.I_insert_medicine()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "7c4397fa-6490-41b0-aaeb-0095eda2915c"
+          },
+          {
+            "result": {
+              "duration": 621298300,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User pick after eat",
+            "match": {
+              "location": "Script.I_after_eat()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "df581e22-7f13-442f-8201-45bbbe392d75"
+          },
+          {
+            "result": {
+              "duration": 127306500,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I press OK Reminder",
+            "match": {
+              "location": "Script.I_press_OK_reminder()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "faf215bf-ab0a-4029-9acb-ded592d7eca4"
+          },
+          {
+            "result": {
+              "duration": 764358700,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "System will throw alert handling reminder medicine",
+            "match": {
+              "location": "Script.I_handling_medicine()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "e8518bb8-44d4-4419-9b97-01f7724bb4f3"
+          },
+          {
+            "result": {
+              "duration": 109889900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I press OK",
+            "match": {
+              "location": "Script.I_press_OK()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "8564f300-0232-42ba-8d99-92a42c9f952c"
+          },
+          {
+            "result": {
+              "duration": 620118500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I press Cross",
+            "match": {
+              "location": "Script.I_press_cross_reminder()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "80531215-353a-40f3-b4b6-99b389b5e9c2"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NegativeCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "850be4ae-dd5b-427f-a95c-ee18758209fb",
+        "line": 52,
+        "name": "As user i want to insert reminder and verify",
+        "description": "",
+        "id": "insert-record-blood;as-user-i-want-to-insert-reminder-and-verify",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 567615400,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "User is on pengingat obat page",
+            "match": {
+              "location": "Script.I_pengingat_page()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "6bb70f6d-d199-4ea0-87fd-4bb175de0a77"
+          },
+          {
+            "result": {
+              "duration": 256587900,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User verify the pengingat obat page",
+            "match": {
+              "location": "Script.I_pengingat_page_verify()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "b67547cd-97db-406b-a48f-18e719e9cf00"
+          },
+          {
+            "result": {
+              "duration": 121028000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User can insert reminder medicine",
+            "match": {
+              "location": "Script.I_insert_medicine()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "3d207d72-d1e6-43cd-8431-1df84284026b"
+          },
+          {
+            "result": {
+              "duration": 638755400,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User pick after eat",
+            "match": {
+              "location": "Script.I_after_eat()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "4b03d0ae-08c3-4214-b5b3-a4ce6a41f2b0"
+          },
+          {
+            "result": {
+              "duration": 1107636900,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "User fill the name of the medicine",
+            "match": {
+              "location": "Script.I_set_text()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "214d139e-c4cc-41df-9f0b-764dc9a68db7"
+          },
+          {
+            "result": {
+              "duration": 570832400,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "User tambahkan medicine",
+            "match": {
+              "location": "Script.I_tambahkanr()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "8c991bc7-e76d-4cd4-8cd3-28595532ca42"
+          },
+          {
+            "result": {
+              "duration": 691381900,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I press OK Reminder",
+            "match": {
+              "location": "Script.I_press_OK_reminder()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "8313df51-82d8-48ad-8b5c-c6f553849053"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      }
+    ],
+    "name": "Insert Record Blood",
+    "description": "  As user i want to Record my Daily Sugar Blood Data",
+    "id": "insert-record-blood",
+    "keyword": "Feature",
+    "uri": "C:/Users/MSI/git/TemanDiabetes/Include/features/MedicationReminder.feature",
+    "tags": []
+  }
+]

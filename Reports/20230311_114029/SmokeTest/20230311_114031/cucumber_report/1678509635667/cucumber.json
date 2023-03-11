@@ -1,0 +1,569 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "As user i want to go to Rekaman Page and verify all the section",
+        "description": "",
+        "id": "insert-record-blood;as-user-i-want-to-go-to-rekaman-page-and-verify-all-the-section",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22949876200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1030719600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User go to Rekaman Page",
+            "match": {
+              "location": "Script.I_go_to_rekamanpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4340503400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User check the data record is there or not",
+            "match": {
+              "location": "Script.I_check_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 475338800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Verify all the section",
+            "match": {
+              "location": "Script.I_verify_rekaman_section()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "As user i want to insert manually the blood record",
+        "description": "",
+        "id": "insert-record-blood;as-user-i-want-to-insert-manually-the-blood-record",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 166030200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User in the Rekaman Page",
+            "match": {
+              "location": "Script.in_rekaman_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1239680300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User go to insert blood and chose manual mechanism",
+            "match": {
+              "location": "Script.I_go_to_insert()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 174639600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User chose manual",
+            "match": {
+              "location": "Script.I_chose_manual()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1401043600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User redirect input page",
+            "match": {
+              "location": "Script.I_redirect_to()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "As user i want to verify all the section insert sugar blood",
+        "description": "",
+        "id": "insert-record-blood;as-user-i-want-to-verify-all-the-section-insert-sugar-blood",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 161257300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User in input darah page",
+            "match": {
+              "location": "Script.in_input_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3986969100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User want to see the whole section",
+            "match": {
+              "location": "Script.I_see_whole()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1683403700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User can easly fill the field",
+            "match": {
+              "location": "Script.I_easly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "As user i want to save the page without fill any field",
+        "description": "",
+        "id": "insert-record-blood;as-user-i-want-to-save-the-page-without-fill-any-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 688292500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User in input darah page",
+            "match": {
+              "location": "Script.in_input_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 915136000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User didn\u0027t fill any field and save it",
+            "match": {
+              "location": "Script.I_dont_fill()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2435829100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "System will throw alert handling",
+            "match": {
+              "location": "Script.I_handling_1()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 397640000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I press OK",
+            "match": {
+              "location": "Script.I_press_OK()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NegativeCase"
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "As user just fill jenis pemeriksaan darah then save it",
+        "description": "",
+        "id": "insert-record-blood;as-user-just-fill-jenis-pemeriksaan-darah-then-save-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2811471700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User in input darah page",
+            "match": {
+              "location": "Script.in_input_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5048175500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User just fill pemeriksaan darah",
+            "match": {
+              "location": "Script.I_just_pemeriksaan()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11335998300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "System will throw alert handling",
+            "match": {
+              "location": "Script.I_handling_1()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 516404200,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I press OK",
+            "match": {
+              "location": "Script.I_press_OK()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NegativeCase"
+          }
+        ]
+      },
+      {
+        "line": 40,
+        "name": "As user just fill jenis pemeriksaan darah and time then save it",
+        "description": "",
+        "id": "insert-record-blood;as-user-just-fill-jenis-pemeriksaan-darah-and-time-then-save-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1664631300,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User in input darah page",
+            "match": {
+              "location": "Script.in_input_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6202584100,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User fill time",
+            "match": {
+              "location": "Script.I_just_time()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10783665700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "System will throw alert handling",
+            "match": {
+              "location": "Script.I_handling_1()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 159755900,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I press OK",
+            "match": {
+              "location": "Script.I_press_OK()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NegativeCase"
+          }
+        ]
+      },
+      {
+        "line": 47,
+        "name": "As user just fill jenis pemeriksaan darah, time and sugar blood then save it",
+        "description": "",
+        "id": "insert-record-blood;as-user-just-fill-jenis-pemeriksaan-darah--time-and-sugar-blood-then-save-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 621411800,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User in input darah page",
+            "match": {
+              "location": "Script.in_input_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5562221200,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User fill sugar blood",
+            "match": {
+              "location": "Script.I_just_sugarblood()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10751052200,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "System will throw alert handling",
+            "match": {
+              "location": "Script.I_handling_1()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 131617600,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I press OK",
+            "match": {
+              "location": "Script.I_press_OK()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NegativeCase"
+          }
+        ]
+      },
+      {
+        "line": 54,
+        "name": "As user just fill jenis pemeriksaan darah, time, sugar blood and makan malam then save it",
+        "description": "",
+        "id": "insert-record-blood;as-user-just-fill-jenis-pemeriksaan-darah--time--sugar-blood-and-makan-malam-then-save-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 566804700,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User in input darah page",
+            "match": {
+              "location": "Script.in_input_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5056571000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User fill makan malam",
+            "match": {
+              "location": "Script.I_just_makanmalam()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10761864800,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "System will throw alert handling",
+            "match": {
+              "location": "Script.I_handling_1()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 114094700,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I press OK",
+            "match": {
+              "location": "Script.I_press_OK()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NegativeCase"
+          }
+        ]
+      },
+      {
+        "line": 61,
+        "name": "As user i fill everything on the all section and save it",
+        "description": "",
+        "id": "insert-record-blood;as-user-i-fill-everything-on-the-all-section-and-save-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 572908600,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "User in input darah page",
+            "match": {
+              "location": "Script.in_input_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8329014200,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "User fill snack malam",
+            "match": {
+              "location": "Script.I_just_snackmalam()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1136756300,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "User verify the data is valid or not",
+            "match": {
+              "location": "Script.I_verify()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Object Object Repository/RekamanPage/InsertSugarBlood/Alert_Handling/Button_OK not found\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)\r\n\tat Script.I_press_OK(Script.groovy:388)\r\n\tat ✽.I press OK(C:/Users/MSI/git/TemanDiabetes/Include/features/InsertRecordBlood.feature:65)\r\n",
+              "duration": 10462400200,
+              "status": "failed"
+            },
+            "line": 65,
+            "name": "I press OK",
+            "match": {
+              "location": "Script.I_press_OK()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      }
+    ],
+    "name": "Insert Record Blood",
+    "description": "  As user i want to Record my Daily Sugar Blood Data",
+    "id": "insert-record-blood",
+    "keyword": "Feature",
+    "uri": "C:/Users/MSI/git/TemanDiabetes/Include/features/InsertRecordBlood.feature",
+    "tags": []
+  }
+]

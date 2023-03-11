@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_YaBenar</name>
+   <tag></tag>
+   <elementGuidId>89748c21-2b31-42d3-8151-cb34f22bba1e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.view.ViewGroup' and @content-desc = 'touchSendData']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>android.view.ViewGroup</value>
+      <webElementGuid>48dca140-ce91-4f42-abc6-3ba8315a1de6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>content-desc</name>
+      <type>Main</type>
+      <value>touchSendData</value>
+      <webElementGuid>9b1a6e22-c415-45f5-9193-bdb643df4d1e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

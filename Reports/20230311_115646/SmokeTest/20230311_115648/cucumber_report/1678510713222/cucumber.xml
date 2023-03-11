@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="39.585668">
+<testcase classname="Insert Record Blood" name="As user i want to see entry point medication reminder" time="23.064383">
+<system-out><![CDATA[Given I open default app....................................................passed
+When User looking for tab medication reminder...............................passed
+Then User verify medication page............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insert Record Blood" name="As user i want go to pengingat obat page and verify the page" time="2.473792">
+<system-out><![CDATA[Given User is on pengingat obat page........................................passed
+When User verify the pengingat obat page....................................passed
+Then User can insert reminder medicine......................................passed
+Then I press Cross..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insert Record Blood" name="As user i want to insert the page but haven't filled any field and save it" time="3.483729">
+<system-out><![CDATA[Given User is on pengingat obat page........................................passed
+When User verify the pengingat obat page....................................passed
+Then User can insert reminder medicine......................................passed
+And User haven't filled any field and save it...............................passed
+Then System will throw alert handling reminder medicine.....................passed
+Then I press OK.............................................................passed
+Then I press Cross..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insert Record Blood" name="As user i want to insert reminder medicie for before eaten" time="3.429671">
+<system-out><![CDATA[Given User is on pengingat obat page........................................passed
+When User verify the pengingat obat page....................................passed
+Then User can insert reminder medicine......................................passed
+Then User pick before eat...................................................passed
+Then I press OK Reminder....................................................passed
+Then System will throw alert handling reminder medicine.....................passed
+Then I press OK.............................................................passed
+Then I press Cross..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insert Record Blood" name="As user i want to insert reminder medicie for before eaten 2" time="3.175951">
+<system-out><![CDATA[Given User is on pengingat obat page........................................passed
+When User verify the pengingat obat page....................................passed
+Then User can insert reminder medicine......................................passed
+Then User pick after eat....................................................passed
+Then I press OK Reminder....................................................passed
+Then System will throw alert handling reminder medicine.....................passed
+Then I press OK.............................................................passed
+Then I press Cross..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insert Record Blood" name="As user i want to insert reminder and verify" time="3.958142">
+<system-out><![CDATA[Given User is on pengingat obat page........................................passed
+When User verify the pengingat obat page....................................passed
+Then User can insert reminder medicine......................................passed
+Then User pick after eat....................................................passed
+Then User fill the name of the medicine.....................................passed
+Then User tambahkan medicine................................................passed
+Then I press OK Reminder....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

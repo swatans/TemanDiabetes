@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BangunTidur_TextField_ApaMakanMalamAnda</name>
+   <tag></tag>
+   <elementGuidId>3f6b6b2c-ba86-454c-8e8a-2380cf2a89a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.widget.EditText' and @content-desc = 'inputFood1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>android.widget.EditText</value>
+      <webElementGuid>e9ca4ca4-e148-4ec0-a45e-6d79cd19acda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>content-desc</name>
+      <type>Main</type>
+      <value>inputFood1</value>
+      <webElementGuid>1b87fcc0-0727-4031-af4b-3fb4ec0f37ab</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

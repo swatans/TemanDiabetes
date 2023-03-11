@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Batal</name>
+   <tag></tag>
+   <elementGuidId>4ca7bb89-53e6-4c9d-88b5-83a2433a446d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.view.ViewGroup' and @content-desc = 'btn-confirm']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>android.view.ViewGroup</value>
+      <webElementGuid>d16bf5f3-1239-4fdf-8dc1-c87ee993ad9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>content-desc</name>
+      <type>Main</type>
+      <value>btn-confirm</value>
+      <webElementGuid>2d9b63eb-e9a1-444d-9ea5-21f611b25be2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

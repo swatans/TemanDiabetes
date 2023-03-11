@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Selesai</name>
+   <tag></tag>
+   <elementGuidId>bd74d098-e3b4-4941-af16-0a332ae01fb3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.view.ViewGroup' and @content-desc = 'touchSubmit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>android.view.ViewGroup</value>
+      <webElementGuid>deacb371-009f-4c61-b8b1-bdadd36687b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>content-desc</name>
+      <type>Main</type>
+      <value>touchSubmit</value>
+      <webElementGuid>d75b792f-0e9a-4943-a492-d1fcdb30918c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

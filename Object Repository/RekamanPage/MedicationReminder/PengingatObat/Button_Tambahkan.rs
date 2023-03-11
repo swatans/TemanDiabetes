@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Tambahkan</name>
+   <tag></tag>
+   <elementGuidId>932e4731-7199-4ba9-9c5f-eac6a9f173d3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.view.ViewGroup' and @content-desc = 'touchModal']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>android.view.ViewGroup</value>
+      <webElementGuid>f6b26020-175f-4b69-bd53-ca217ed82410</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>content-desc</name>
+      <type>Main</type>
+      <value>touchModal</value>
+      <webElementGuid>a994a7b8-479e-4d55-8c2b-bdbf19c0e00b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

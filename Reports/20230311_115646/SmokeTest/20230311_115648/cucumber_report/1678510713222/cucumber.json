@@ -1,0 +1,547 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "As user i want to see entry point medication reminder",
+        "description": "",
+        "id": "insert-record-blood;as-user-i-want-to-see-entry-point-medication-reminder",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14956928800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7623412400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User looking for tab medication reminder",
+            "match": {
+              "location": "Script.I_swipe_to_bottom_trx()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 478481400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User verify medication page",
+            "match": {
+              "location": "Script.I_verify_medication()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "As user i want go to pengingat obat page and verify the page",
+        "description": "",
+        "id": "insert-record-blood;as-user-i-want-go-to-pengingat-obat-page-and-verify-the-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1004633200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on pengingat obat page",
+            "match": {
+              "location": "Script.I_pengingat_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 271971200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User verify the pengingat obat page",
+            "match": {
+              "location": "Script.I_pengingat_page_verify()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117380200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User can insert reminder medicine",
+            "match": {
+              "location": "Script.I_insert_medicine()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1077137100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I press Cross",
+            "match": {
+              "location": "Script.I_press_cross_reminder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "As user i want to insert the page but haven\u0027t filled any field and save it",
+        "description": "",
+        "id": "insert-record-blood;as-user-i-want-to-insert-the-page-but-haven-t-filled-any-field-and-save-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 554253700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is on pengingat obat page",
+            "match": {
+              "location": "Script.I_pengingat_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 261441000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User verify the pengingat obat page",
+            "match": {
+              "location": "Script.I_pengingat_page_verify()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137336600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User can insert reminder medicine",
+            "match": {
+              "location": "Script.I_insert_medicine()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 741608400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User haven\u0027t filled any field and save it",
+            "match": {
+              "location": "Script.I_reminder_havent()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1038451700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "System will throw alert handling reminder medicine",
+            "match": {
+              "location": "Script.I_handling_medicine()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 130383100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I press OK",
+            "match": {
+              "location": "Script.I_press_OK()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 616027500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I press Cross",
+            "match": {
+              "location": "Script.I_press_cross_reminder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NegativeCase"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "As user i want to insert reminder medicie for before eaten",
+        "description": "",
+        "id": "insert-record-blood;as-user-i-want-to-insert-reminder-medicie-for-before-eaten",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 558544000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User is on pengingat obat page",
+            "match": {
+              "location": "Script.I_pengingat_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 262947800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User verify the pengingat obat page",
+            "match": {
+              "location": "Script.I_pengingat_page_verify()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 132552900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User can insert reminder medicine",
+            "match": {
+              "location": "Script.I_insert_medicine()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 633106500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User pick before eat",
+            "match": {
+              "location": "Script.I_before_eat()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 308345400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I press OK Reminder",
+            "match": {
+              "location": "Script.I_press_OK_reminder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 786186900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "System will throw alert handling reminder medicine",
+            "match": {
+              "location": "Script.I_handling_medicine()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 123682400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I press OK",
+            "match": {
+              "location": "Script.I_press_OK()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 619487300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I press Cross",
+            "match": {
+              "location": "Script.I_press_cross_reminder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NegativeCase"
+          }
+        ]
+      },
+      {
+        "line": 40,
+        "name": "As user i want to insert reminder medicie for before eaten",
+        "description": "",
+        "id": "insert-record-blood;as-user-i-want-to-insert-reminder-medicie-for-before-eaten",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 556671400,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User is on pengingat obat page",
+            "match": {
+              "location": "Script.I_pengingat_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 252638100,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User verify the pengingat obat page",
+            "match": {
+              "location": "Script.I_pengingat_page_verify()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118862900,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User can insert reminder medicine",
+            "match": {
+              "location": "Script.I_insert_medicine()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 621298300,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User pick after eat",
+            "match": {
+              "location": "Script.I_after_eat()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 127306500,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I press OK Reminder",
+            "match": {
+              "location": "Script.I_press_OK_reminder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 764358700,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "System will throw alert handling reminder medicine",
+            "match": {
+              "location": "Script.I_handling_medicine()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 109889900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I press OK",
+            "match": {
+              "location": "Script.I_press_OK()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 620118500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I press Cross",
+            "match": {
+              "location": "Script.I_press_cross_reminder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NegativeCase"
+          }
+        ]
+      },
+      {
+        "line": 52,
+        "name": "As user i want to insert reminder and verify",
+        "description": "",
+        "id": "insert-record-blood;as-user-i-want-to-insert-reminder-and-verify",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 567615400,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "User is on pengingat obat page",
+            "match": {
+              "location": "Script.I_pengingat_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 256587900,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User verify the pengingat obat page",
+            "match": {
+              "location": "Script.I_pengingat_page_verify()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121028000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User can insert reminder medicine",
+            "match": {
+              "location": "Script.I_insert_medicine()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 638755400,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User pick after eat",
+            "match": {
+              "location": "Script.I_after_eat()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1107636900,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "User fill the name of the medicine",
+            "match": {
+              "location": "Script.I_set_text()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 570832400,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "User tambahkan medicine",
+            "match": {
+              "location": "Script.I_tambahkanr()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 691381900,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I press OK Reminder",
+            "match": {
+              "location": "Script.I_press_OK_reminder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      }
+    ],
+    "name": "Insert Record Blood",
+    "description": "  As user i want to Record my Daily Sugar Blood Data",
+    "id": "insert-record-blood",
+    "keyword": "Feature",
+    "uri": "C:/Users/MSI/git/TemanDiabetes/Include/features/MedicationReminder.feature",
+    "tags": []
+  }
+]

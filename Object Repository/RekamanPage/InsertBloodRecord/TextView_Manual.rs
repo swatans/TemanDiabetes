@@ -18,7 +18,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>73beb8ed-5662-4f05-8052-f1ccd2498f70</webElementGuid>
+      <webElementGuid>0651b77d-695b-473a-a55d-03f1a50d237c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Manual</value>
-      <webElementGuid>c254fe46-86ab-4697-adce-38bacab38486</webElementGuid>
+      <webElementGuid>28a608b2-3fbe-4315-aca6-dfa588a839d3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

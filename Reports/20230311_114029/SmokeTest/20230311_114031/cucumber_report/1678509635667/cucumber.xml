@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="134.807108">
+<testcase classname="Insert Record Blood" name="As user i want to go to Rekaman Page and verify all the section" time="28.939405">
+<system-out><![CDATA[Given I open default app....................................................passed
+When User go to Rekaman Page................................................passed
+And User check the data record is there or not..............................passed
+Then User Verify all the section............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insert Record Blood" name="As user i want to insert manually the blood record" time="2.985549">
+<system-out><![CDATA[Given User in the Rekaman Page..............................................passed
+When User go to insert blood and chose manual mechanism.....................passed
+And User chose manual.......................................................passed
+Then User redirect input page...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insert Record Blood" name="As user i want to verify all the section insert sugar blood" time="5.83459">
+<system-out><![CDATA[Given User in input darah page..............................................passed
+When User want to see the whole section.....................................passed
+Then User can easly fill the field..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insert Record Blood" name="As user i want to save the page without fill any field" time="4.44047">
+<system-out><![CDATA[Given User in input darah page..............................................passed
+When User didn't fill any field and save it.................................passed
+Then System will throw alert handling.......................................passed
+Then I press OK.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insert Record Blood" name="As user just fill jenis pemeriksaan darah then save it" time="19.716039">
+<system-out><![CDATA[Given User in input darah page..............................................passed
+When User just fill pemeriksaan darah.......................................passed
+Then System will throw alert handling.......................................passed
+Then I press OK.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insert Record Blood" name="As user just fill jenis pemeriksaan darah and time then save it" time="18.813895">
+<system-out><![CDATA[Given User in input darah page..............................................passed
+When User fill time.........................................................passed
+Then System will throw alert handling.......................................passed
+Then I press OK.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insert Record Blood" name="As user just fill jenis pemeriksaan darah, time and sugar blood then save it" time="17.069707">
+<system-out><![CDATA[Given User in input darah page..............................................passed
+When User fill sugar blood..................................................passed
+Then System will throw alert handling.......................................passed
+Then I press OK.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insert Record Blood" name="As user just fill jenis pemeriksaan darah, time, sugar blood and makan malam then save it" time="16.502522">
+<system-out><![CDATA[Given User in input darah page..............................................passed
+When User fill makan malam..................................................passed
+Then System will throw alert handling.......................................passed
+Then I press OK.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Insert Record Blood" name="As user i fill everything on the all section and save it" time="20.504931">
+<failure message="com.kms.katalon.core.exception.StepFailedException: Object Object Repository/RekamanPage/InsertSugarBlood/Alert_Handling/Button_OK not found&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)&#13;&#10;&#9;at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)&#13;&#10;&#9;at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)&#13;&#10;&#9;at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)&#13;&#10;&#9;at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)&#13;&#10;&#9;at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)&#13;&#10;&#9;at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#13;&#10;&#9;at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)&#13;&#10;&#9;at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)&#13;&#10;&#9;at Script.I_press_OK(Script.groovy:388)&#13;&#10;&#9;at ✽.I press OK(C:/Users/MSI/git/TemanDiabetes/Include/features/InsertRecordBlood.feature:65)&#13;&#10;"><![CDATA[Given User in input darah page..............................................passed
+When User fill snack malam..................................................passed
+Then User verify the data is valid or not...................................passed
+Then I press OK.............................................................failed
+
+StackTrace:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/RekamanPage/InsertSugarBlood/Alert_Handling/Button_OK not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at Script.I_press_OK(Script.groovy:388)
+	at ✽.I press OK(C:/Users/MSI/git/TemanDiabetes/Include/features/InsertRecordBlood.feature:65)
+]]></failure>
+</testcase>
+</testsuite>

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SmokeTest,,,,2023-03-11 11:36:16,2023-03-11 11:38:04,1m - 48.687s,FAILED
+,,,,,,,
+Test Cases/SmokeTest,,,,2023-03-11 11:36:16,2023-03-11 11:38:04,1m - 48.505s,FAILED
+"runFeatureFile(""Include/features/InsertRecordBlood.feature"")",,,,2023-03-11 11:36:16,2023-03-11 11:38:04,1m - 48.240s,FAILED

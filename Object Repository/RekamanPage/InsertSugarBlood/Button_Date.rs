@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.EditText' and (text() = '10 Mar 2023' or . = '10 Mar 2023')]</value>
+         <value>//*[@class = 'android.widget.EditText' and (text() = '11 Mar 2023' or . = '11 Mar 2023')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,14 +18,14 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.EditText</value>
-      <webElementGuid>1f31c511-d826-4cda-8e3e-0579519635b0</webElementGuid>
+      <webElementGuid>0ea341d0-6a97-4146-9965-47ba3a41e29c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>10 Mar 2023</value>
-      <webElementGuid>208308ed-77f8-407c-933d-8ccf1c798501</webElementGuid>
+      <value>11 Mar 2023</value>
+      <webElementGuid>b27b9b5c-894e-4dde-b17b-46c9305bd084</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
